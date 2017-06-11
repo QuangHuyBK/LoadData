@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DoAnTotNghiep</string>
+    <string name="title_activity_dong_ket_qua">DongKetQua</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">DoAnTotNghiep</string>
+    <string name="loginsuccess">Loading Infomation</string>
+    <string name="loginerror">Thông tin không khớp, mời nhập lại</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_login_admin">LoginAdminActivity</string>
+
+</resources>

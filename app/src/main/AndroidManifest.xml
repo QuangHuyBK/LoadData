@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quanghuy.loaddata">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".DongKetQua" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".ResultActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".CategoriesActivity" />
+        <activity android:name=".ResultTinhCachActivity" />
+        <activity android:name=".BackgroundActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ResultNgheNghiepActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".WebActivity" />
+        <activity android:name=".ResultTiemNangActivity" />
+        <activity android:name=".ResultChiSoActivity" />
+        <activity android:name=".IQActivity" />
+        <activity android:name=".EQActivity" />
+        <activity android:name=".CQActivity" />
+        <activity android:name=".AQActivity" />
+        <activity
+            android:name=".LoginAdminActivity"
+            android:label="@string/title_activity_login_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UpdateResultActivity"></activity>
+    </application>
+
+</manifest>
